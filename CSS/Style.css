@@ -1,0 +1,275 @@
+* {margin:0; padding:0}
+img {border:none;}
+a:hover {text-decoration:none;}
+
+body {
+	background-color: white; 
+	font-family: Myriad Pro; 
+	background:url(../Images/body_bg2.jpg) repeat left top;}
+.main {
+	background:url(../Images/main_bg_left.png) no-repeat left, url(../Images/main_bg_right.png) no-repeat right; 
+	margin: 0 auto;
+	min-width:1200px; 		
+	max-width: 1400px;}
+.wrapper {
+	width:1008px;
+	margin: 0 auto;
+	background-color:white;
+	}
+	.head {
+		background:white url(../Images/headFon.jpg) no-repeat;
+		width:1008px;
+		height:415px;
+		margin: 0 auto;
+		color:#2e3192;
+		overflow:hidden;}
+		.Diviz {
+			float:left;
+			font-size:24px;
+			margin: 75px 0 0 300px;}
+			#diviz2 {
+				color:white;
+				padding-left:20px;}
+			#diviz3 {
+				padding-left:40px;}
+		.telefon {font-size:16px;
+			margin: 90px 0 0 800px;}
+			#telefon2 {
+				margin-top:-15px;}
+			#telefon2 span {
+				color:white;
+				padding-left:5px;
+				font-size:30px;
+				}
+			#telefon3 {
+				margin-top:-5px;}
+			#telefon3 a{
+				padding-left:60px; 
+				color:#2e3192;}
+				#telefon3 a:hover{
+				font-size:18px; 
+				color:white;
+				}
+				
+	.clr { clear:both;}
+	
+	.menu {
+		max-width: 1010px;
+		margin:0 auto;
+		background: url(../Images/menu_bg.jpg) repeat-y;
+		box-shadow: 2px 2px 1px 0.5px #555756;}
+		.menu ul {
+			display:table-row;
+			background:url(../Images/menu_bg_light.png) repeat-x;}
+			.menu ul li {
+				display:table-cell;
+				width:auto;
+				height:40px;
+				vertical-align:bottom;
+				background:url(../Images/menu_bg_bord.jpg) no-repeat right;		
+				padding:0 7px;
+				line-height:41px;		
+				}
+				.menu ul li:last-child {
+					background:none;
+				}
+				
+				.menu ul li a {
+					color:white;
+					font: 12px Verdana, Geneva, sans-serif; 
+					display:table-cell;
+					height:40px;
+					width:1008px;
+					vertical-align:middle;
+					text-align:center;
+				}
+				
+		.content-wrapper {
+			margin:10px auto 0; width:1008px;
+			overflow:hidden;}			
+			#leaft-bar {
+				width:26%;
+				float:left;
+				margin-left:5px;}
+				.action {
+					border:1px solid #F6F6F6;
+					border-top:none;
+					border-radius:10px;
+					box-shadow: 1px 2px 1px 0.5px #b8b8b8;
+					}
+				.more_action {
+					margin: 25px auto;
+					width:221px;}
+				.services {
+					border:1px solid #F6F6F6;
+					border-top:none;
+					border-radius:10px;
+					box-shadow: 1px 2px 1px 0.5px #b8b8b8;
+					margin-bottom:30px;
+					}
+					.services p {
+						font: 22px Myriad Pro;
+						margin-bottom:20px;}
+						.services ul {
+							margin-bottom:25px;}
+							.services ul li {
+								padding-left:10px;
+								list-style:none;
+								 }
+								.services ul li a {
+									color: black;
+									font:14px Verdana, Geneva, sans-serif;
+									text-decoration:none;
+									background:url(../Images/services_LS.jpg) left center no-repeat;
+									padding-left:25px;}
+									.services ul li a:hover {
+										color: green;
+									}
+				.news {
+					font:12px Verdana, Geneva, sans-serif;
+					border-bottom:3px dashed #DDDDDD;
+					padding: 15px 0 15px 0;
+					 }
+					 .news h3 {
+						 margin-bottom:25px;
+						 font-size:22px;
+						 font-weight:normal;}
+						 .newsDate {
+							 background:url(../Images/news_bg.jpg) left center no-repeat;
+							 padding-left: 4px;
+							 }
+							 .newsDate span {
+								 font:11px Verdana, Geneva, sans-serif;
+								 color:#959595;
+								 padding-left:15px;}
+							
+					.news p {
+						margin-bottom:5px;}
+						.news p a {
+									 color:#417f03;}
+				
+					.ollNews a {
+						display:block;
+						color:#417f03;
+						text-align:right;
+						padding-top:5px;
+						font:13px Verdana, Geneva, sans-serif; }
+			.content {
+				width: 74%;
+				margin-left:26%;
+				}
+				.content h2 {
+					font:25px Myriad Pro;
+					padding: 15px 0 15px 20px;
+					}
+				.builTechBox {
+					border:1px solid #F6F6F6;
+					border-top:none;
+					border-radius:10px;
+					box-shadow: 1px 2px 1px 0.5px #b8b8b8;
+					width:46%;
+					float:left;
+					margin: 10px 0 20px 20px;
+					}
+					.builTechBox img {
+						margin: 15px auto;
+						display:block;}
+					.builTechBox p {
+						text-align:center;
+						margin-bottom:15px;
+						}
+						.builTechBox p a {
+							color:#417f03;
+							font:22px Myriad Pro;
+							}
+				.bestProject {
+					border:1px solid #F6F6F6;
+					border-top:none;
+					border-radius:10px;
+					box-shadow: 1px 2px 1px 0.5px #b8b8b8;
+					margin: 10px 10px 10px 20px;
+					overflow:hidden;
+					padding: 10px 10px 15px 10px;
+					} 
+					.projBox {
+						float:left;
+						width:25%;}
+						.projBox img {
+							margin: 15px auto;
+							display:block;
+							}
+						.projBox p {
+							text-align:center;
+							display:block;
+							font:11px Verdana, Geneva, sans-serif;
+							color: #363636;
+							line-height:20px;
+							}
+							.projBox p a {
+								font:14px Verdana, Geneva, sans-serif;
+								color:#417f03;
+								}
+					.ollProj a {
+						display:block;
+						color:#417f03;
+						text-align:right;
+						font:13px Verdana, Geneva, sans-serif;
+						margin-right:10px; }
+				.content-text {
+					margin:10px 0 0px 20px;}
+					.content-text h2 {
+						font:22px Myriad Pro;}
+					.reason1, .reason2, .reason3 {
+						font:16px Verdana, Geneva, sans-serif;
+						padding:0 0 20px 40px;
+						}
+						.reason1 {
+							background:url(../Images/reason1.jpg)  no-repeat 0% 0%;}
+						.reason2 {
+							background:url(../Images/reason2.jpg)  no-repeat 0% 10%;}
+						.reason3 {
+							background:url(../Images/reason3.jpg)  no-repeat 0% 22%;}	
+					.content-text p {
+						font:14px Verdana, Geneva, sans-serif;
+						}
+			
+			footer{
+				background:url(../Images/footer_bg.png);
+				margin:0 auto 0;}
+				.footer {
+					background-color:white;
+					background:url(../Images/footer_bg.jpg);
+					padding-top:110px;
+					width:1008px;
+					margin:0 auto 0;
+					overflow:hidden;
+					}
+					.footer-menu {
+						min-width: 900px;
+						max-width: 1010px;
+						margin:0 auto;
+					}
+						.footer-menu ul {
+							display:table-row;
+							}
+							.footer-menu ul li {
+								display:table-cell;
+								width:auto;
+								height:40px;
+								vertical-align:bottom;
+								}
+								.footer-menu ul li a {
+									color:white;
+									font: 14px Verdana, Geneva, sans-serif; 
+									display:table-cell;
+									height:40px;
+									width:1008px;
+									vertical-align:middle;
+									text-align:center;
+								}
+
+				.left-footer, .reight-footer {
+					margin-top:15px; width:50%; font:12px Verdana, Geneva, sans-serif; color:white; float: left;}
+				.reight-footer {
+					text-align:right; background:url(../Images/Matador.png) no-repeat right center; }
+					.reight-footer p {padding-right:90px;}
